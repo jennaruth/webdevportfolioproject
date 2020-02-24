@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+
+body {
+  margin:0;
+  padding:0;
+  border:0;
+  margin:0;
+  padding:0;
+  border:0;
+  background-image: url('data:image/svg+xml,%3Csvg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M0 0h16v2h-6v6h6v8H8v-6H2v6H0V0zm4 4h2v2H4V4zm8 8h2v2h-2v-2zm-8 0h2v2H4v-2zm8-8h2v2h-2V4z" fill="%239C92AC" fill-opacity="0.4" fill-rule="evenodd"/%3E%3C/svg%3E');
+  background-color: #EEEEEE;
+}
+#content {
+  padding-top: 10px;
+  height: 1000px;
+  font-family: Lato;
+  color: #719DE1
+}
+img {
+  border-radius: 50%;
+}
+img:hover {
+ 
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+}
+#links {
+  padding-top: 100px;
+}
+.row1 {
+ width: 10%;
+  height: 100px;
+  color: #F7F7F7;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px;
+  background-color: #500;
+  float: left;
+  margin: 10px;
+}
+.row2 {
+ width: 10%;
+  height: 100px;
+  color: #F7F7F7;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px;
+  background-color: #500;
+  float: left;
+  margin: 10px;
+}
+.row3 {
+ width: 10%;
+  height: 100px;
+  color: #F7F7F7;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px;
+  background-color: #500;
+  float: left;
+  margin: 10px;
+}
+table {
+  width: 1350px;
+  height: 500px;
+  font-size: 20px;
+  color: #000;
+}
+th {
+  text-align: center;
+}
+td{
+  background-color: #713C3C;
+}
+.oldAssignment{
+  background-color: #E49F8C;
+}
+.gitHub{
+  background-color: #C16464;
+}
+.codePen{
+  background-color: #8E4A4A;
+}
+.w3c{
+  background-color: #5D3333;
+}
+.devDoc{
+  background-color: #492929;
+}
